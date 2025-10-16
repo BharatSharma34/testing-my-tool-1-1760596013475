@@ -1,30 +1,10 @@
-"""
-testing_my_tool_1 - Custom Lambda Tool
-Description: testing my tool 1 ......
-
-IMPORTANT: Only edit the code in the main() function below.
-The Lambda handler will be automatically appended during deployment.
-DO NOT add lambda_handler code here - it will be added automatically.
-"""
 
 def main(event_body):
-    """
-    Main function for testing_my_tool_1
-    This function will be called by the Lambda handler.
-    
-    Parameters:
-    event_body: dict - The request body passed to the Lambda function
-    
-    Returns:
-    dict - JSON-serializable response
-    """
-    # Your tool logic here
-    # Access parameters from event_body
-    # Example: user_input = event_body.get('input_data', '')
+   print("changed code")
     
     return {
         "success": True,
-        "message": "Hello from testing_my_tool_1!",
+        "message": "Hello from testTool2Oct15! with chnages",
         "data": event_body
     }
 
